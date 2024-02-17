@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    display: flex;
+}
+
+.select {
+    width: 152px;
+    /* border: 2px solid white; */
+    /* background: rgb(255, 255, 255); */
+}
+
+.select:hover {
+    width: 152px;
+    /* border: 2px solid #1870C6; */
+}
+
+.container {
+    width: 1200px;
+    min-height: 600px;
+    margin: 50px auto;
+    border: 1px solid #00000060;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
